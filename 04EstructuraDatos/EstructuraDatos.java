@@ -428,7 +428,7 @@ class EstructuraDatos {
                 break;
                 case 10:
                 do{
-                    System.out.println("ingrese el lado del cuadrado no mayor a 20");
+                    System.out.println("ingrese el lado del cuadrado ");
                     t = entrada.nextInt();
                     if(t>=0 && t<=20){
                         
@@ -451,7 +451,7 @@ class EstructuraDatos {
                          System.out.println(" ");
                     }else{
                         System.out.println(" ");
-                        System.out.println("sigue las instrucciones pendejo");
+                        System.out.println("tiene que ser menor de 20");
                     }
                     System.out.println("Deseas repetir el programa, escribe s para si");
                     letra = entrada.next().charAt(0);
