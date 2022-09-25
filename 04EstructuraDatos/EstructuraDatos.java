@@ -460,7 +460,7 @@ class EstructuraDatos {
                 break;
                 case 11:
                 do{
-                    System.out.println("\n\n ¿ Deseas desplegar el patron sorpresa ?");
+                    System.out.println("\n\n ¿quiere desplegar el patron ? ");
                     System.out.println("1 si \n2 no "); 
                     op = entrada.nextInt(); 
                     switch(op){
