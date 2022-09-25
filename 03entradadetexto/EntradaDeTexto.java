@@ -10,7 +10,7 @@ class entradadetexto{
         //declaracion  de variables
         String nombre;
 
-    //Mensaje para el ususario
+    
     System.out.println("por favor intrtoduce tu nombre: ");
     //Ln es salto de linea
 
@@ -18,7 +18,7 @@ class entradadetexto{
 
     //tenenmos que concatenar los elementos
 
-    System.out.println("hola " + nombre + "bienvenido a la tronadera t_t");
+    System.out.println(" hola " + nombre + " bienvenido a la tronadera t_t");
     }
  }
 
