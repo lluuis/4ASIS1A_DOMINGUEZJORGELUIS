@@ -9,8 +9,8 @@ class EstructuraDatos {
         Scanner entrada = new Scanner(System.in);
 
         //aqui van a ir las variables
-        int opcion, numbinario;
-        float a,b,c,d,e,f;
+        int opcion, numbinario, total, cantidadprod;
+        float a,b,c,d,e,f,precio, resultado=0;
         int op,lado,op20,op21,edad,op12,suma,resta,multi,div,num1,num2,op10,op2,op3,op4,op5,op6;
         int t;
         float base,altura,perimetro,area,cateto1,cateto2,radio;
@@ -22,7 +22,7 @@ class EstructuraDatos {
         String sexo;
         String nombre;
         String binario = "";
-        
+        String nombreprod;
 
         do{
             System.out.println("Bienvenido al programa de las tareas que son para el lunes a las 7 am wiii (n_n)/");
@@ -124,6 +124,7 @@ class EstructuraDatos {
 
 
                 case 3:
+                 //conversiones de temperatura
                      do{
                          System.out.println("\nLee las opciones y escoje la de tu agrado :");
                          System.out.println("1 Celsius"); 
@@ -284,6 +285,7 @@ class EstructuraDatos {
                     break;
 
                 case 4:
+                 //numero positivo negativo
                 do{
 
                     System.out.println("ingrese seis numeros diferentes");
@@ -329,10 +331,14 @@ class EstructuraDatos {
                     break;  
 
                case 5:
-                 System.out.println("profe");
+                 System.out.println("bienvenido a la tiendita");
+                 System.out.println(x:"¿ingrse la cantidad de productos a comprar?");
+
+
                break;
                    
                 case 6:
+                 //figuras
                 do{
                     System.out.println("selecione 1 para area y perimetro de un rectangulo ");
                     System.out.println("seleccione 2 para area y perimetro de un triangulo");
@@ -413,6 +419,7 @@ class EstructuraDatos {
 
                 break;
                 case 9:
+                 //figura
                 do{
                 System.out.println("Digita el tamaño del cuadrado : "); 
                 lado = entrada.nextInt(); 
@@ -427,8 +434,9 @@ class EstructuraDatos {
                 }while(letra == 's' || letra == 'S' );
                 break;
                 case 10:
+                 //figura 2
                 do{
-                    System.out.println("ingrese el lado del cuadrado no mayor a 20");
+                    System.out.println("ingrese el lado del cuadrado ");
                     t = entrada.nextInt();
                     if(t>=0 && t<=20){
                         
@@ -451,7 +459,7 @@ class EstructuraDatos {
                          System.out.println(" ");
                     }else{
                         System.out.println(" ");
-                        System.out.println("sigue las instrucciones pendejo");
+                        System.out.println(" que sea menor a 20");
                     }
                     System.out.println("Deseas repetir el programa, escribe s para si");
                     letra = entrada.next().charAt(0);
@@ -459,6 +467,7 @@ class EstructuraDatos {
                 
                 break;
                 case 11:
+                 //figura3
                 do{
                     System.out.println("\n\n ¿quiere desplegar el patron ? ");
                     System.out.println("1 si \n2 no "); 
@@ -483,6 +492,7 @@ class EstructuraDatos {
                       
                 break;
                 case 12:
+                 //diamante
                 do{
                     for (int i = 1; i<=1 ; i++){
                         System.out.println("\t   *** ");//3
@@ -510,6 +520,7 @@ class EstructuraDatos {
                 }while(letra == 's' || letra == 'S' );
                 break;
                 case 13:
+                 //calculadora
                 do{
                     nombre = JOptionPane.showInputDialog("Ingresa tu nombre "); 
                     JOptionPane.showMessageDialog(null,"hola " + nombre);
