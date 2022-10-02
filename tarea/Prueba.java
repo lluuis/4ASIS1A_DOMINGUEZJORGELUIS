@@ -1,3 +1,4 @@
+package tarea;
 // convolucion discreta
 // alumno: dominguez suarez jorge luis  
 
