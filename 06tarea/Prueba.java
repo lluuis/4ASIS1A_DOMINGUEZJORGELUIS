@@ -1,12 +1,12 @@
-package tarea;
 // convolucion discreta
 // alumno: dominguez suarez jorge luis  
 
 import java.util.Scanner; 
 
 public class Prueba{
+
     public static void main(String args[]){
-        Scanner entrada = new Scanner (System.in); 
+        Scanner entrada  = new Scanner (System.in); 
         int vector[] = new int[4]; 
         int vector2[] = new int[4]; 
         int vector3[] = new int[100]; 
@@ -17,6 +17,7 @@ public class Prueba{
 
         System.out.println("\n\n\t\t Señal x(n)\n\n");
 
+        Scanner entrada;
         for(int i=0; i<vector.length; i++){
             System.out.print("Ingresa los elementos de la señal x(n) : "); 
             vector[i] = entrada.nextInt(); 
